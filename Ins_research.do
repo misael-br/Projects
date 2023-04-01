@@ -1,6 +1,6 @@
-use "/Users/HaileyLouw/Desktop/Year 2/MAT 375/Term Paper/ECO375Data1 (1).dta"
+use "Data1 (1).dta"
  
-log using "TermPaper", replace
+log using "Ins_research", replace
 
 ssc install outreg2
 summarize
